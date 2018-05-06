@@ -3,6 +3,7 @@
     "description": "Tap with two fingers works as a middle click",
     "uuid": "@extension_id@",
     "shell-version": [
-        "3.26.2"
+        "3.26.2",
+	"3.28.1"
     ]
 }
