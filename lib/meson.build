@@ -8,8 +8,8 @@ sources = [
 dependencies = [
   dependency('gobject-2.0'),
   dependency('glib-2.0'),
-  dependency('libmutter-2'),
-  dependency('mutter-clutter-2'),
+  dependency('libmutter-3'),
+  dependency('mutter-clutter-3'),
   dependency('libinput')
 ]
 
@@ -24,10 +24,10 @@ gir = gnome.generate_gir(
   lib,
   sources           : sources,
   dependencies      : dependencies,
-  nsversion         : '0.2.1',
+  nsversion         : '0.3',
   namespace         : 'MiddleTap',
   symbol_prefix     : 'middle_tap_',
   identifier_prefix : 'MiddleTap',
-  includes          : ['GObject-2.0', 'Clutter-2'],
+  includes          : ['GObject-2.0', 'Clutter-3'],
   install           : true
 )
