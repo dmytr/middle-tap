@@ -10,7 +10,8 @@ dependencies = [
   dependency('glib-2.0'),
   dependency('libmutter-4'),
   dependency('mutter-clutter-4'),
-  dependency('libinput')
+  dependency('libinput'),
+  dependency('libudev')
 ]
 
 lib = shared_library(
