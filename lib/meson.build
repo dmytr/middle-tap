@@ -24,7 +24,7 @@ gir = gnome.generate_gir(
   lib,
   sources           : sources,
   dependencies      : dependencies,
-  nsversion         : '0.3',
+  nsversion         : '0.4',
   namespace         : 'MiddleTap',
   symbol_prefix     : 'middle_tap_',
   identifier_prefix : 'MiddleTap',
